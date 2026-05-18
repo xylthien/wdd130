@@ -40,3 +40,13 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
+main {
+    max-width: 500px;
+}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 10px black;
+}
