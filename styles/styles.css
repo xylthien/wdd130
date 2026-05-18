@@ -21,5 +21,22 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0px;
+}
+aside {
+    width: 500px;
+    margin: 1em;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: blue;
+    color: bisque;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 2em;
+    border-top: 1px solid black;
+    text-align: center;
 }
