@@ -8,6 +8,10 @@ header, .grid, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+}
+
 .grid {
   display: grid;
   align-items: center;
@@ -58,6 +62,7 @@ p {
     padding: 0px;
 }
 aside {
+    position: relative;
     width: 500px;
     margin: 1em;
     border: 1px solid black;
