@@ -159,6 +159,7 @@ textarea {
 .employees h2 {
     all: revert;
     text-align: center;
+    width: 100%;
 }
 
 button {
@@ -180,10 +181,6 @@ button:hover {
     gap: 2rem;
     background: #eee;
     padding: 1rem;
-}
-
-.employees h2 {
-    width: 100%;
 }
 
 .adventure {
