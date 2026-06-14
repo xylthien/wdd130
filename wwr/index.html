@@ -3,32 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devin Hale | WDD 130</title>
-    <meta name="description" content="Devin Hale's index page for WDD 130. Navigates through Devin's personal life.">
+    <meta name="description" content="Homepage. Navigation and information page.">
     <meta name="author" content="Devin Hale">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Home | WWR</title>
 </head>
 <body>
     <header>
+        <img src="images/z-boat-splash.png" alt="white water raft logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>Devin Hale | WDD 130</h1>
-            <img src="images/profile.jpg" alt="Devin Hale" width="200">
-            <p>I have my scuba certification, I am an Eagle Scout, and have flown planes.</p>
-        </main>
-        <aside>
-            <h2>Utah, USA</h2>
-            <img src="images/utah-arch.jpg" alt="Utah Arch">
-            <p>Utah is a state in the western United States. It has the beautiful Rocky Mountains going all the way down its western side.</p>
-        </aside>
-        <footer>
-            <p>&copy;2025 🌳 Devin Hale 🌳 Utah,USA  </p>
-        </footer>
-    </div>
+    <main>
+        <div class="hero">
+            <img src="images/rafting10_1024.jpg" alt="">
+            <h1>White Water Rafting</h1>
+            <article>
+                <img src="images/happy-rafters.jpg" alt="Successful rafting group">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio minima 
+                    fugit deserunt? Iste autem modi dolore libero deleniti reprehenderit 
+                    temporibus omnis ullam similique iusto, repellat assumenda vero 
+                    repudiandae rem tenetur?</p>
+            </article>
+        </div>
+        <div class="row2">
+            <div id="news-ad">
+                <h2>Sign Up to Recieve Our Weekly Newsletter!</h2>
+                <p>Where we bring you the latest news on lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Earum, id.</p>
+            </div>
+            <form>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <button type="submit">Submit Information</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="trip">
+            <h2>Interested in booking a tour? <a href="trips.html">Click Here</a> for more information!</h2>
+        </div>
+        <div class="figure-gallery">
+            <figure><img src="images/blue-river-with-boaters-in-the-water.jpg" alt="groups rafting down Blue River"><figcaption>Blue River</figcaption></figure>
+            <figure><img src="images/rafting-the-river.jpg" alt="rafting close to Rocky Mountain Range"><figcaption>Rocky Mountains</figcaption></figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 | White Water Rafting | Devin Hale</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
